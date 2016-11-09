@@ -15,5 +15,7 @@ namespace FileMonitor.Common
         string[] GetFilesName(string pathFiles, List<string> typeFiles);
 
         void GetFile();
+
+        void MoveFile(string source, string destination);
     }
 }

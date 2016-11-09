@@ -36,5 +36,11 @@ namespace FileMonitor.Common.BaseClases
         {
             throw new NotImplementedException();
         }
+
+        public void MoveFile(string source, string destination)
+        {
+            if (File.Exists(source))
+                File.Move(source, destination);
+        }
     }
 }

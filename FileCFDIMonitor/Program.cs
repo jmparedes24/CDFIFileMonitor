@@ -14,7 +14,7 @@ namespace FileCFDIMonitor
             var appFilePath = ConfigurationManager.AppSettings[FileMonitor.Common.Constants.pathFileKey];
             var fileExtensions = ConfigurationManager.AppSettings[FileMonitor.Common.Constants.fileExtensionsKey];
             var attributesNames = ConfigurationManager.AppSettings[FileMonitor.Common.Constants.attributesNames];
-
+             
             FileXmlProcessor fileProcessor = new FileXmlProcessor(attributesNames);
             var fileExtensionsList = fileExtensions.Split(',').ToList();
 
@@ -29,9 +29,7 @@ namespace FileCFDIMonitor
                 var modelToInsert = ReflectionHelper.GetObject<BdospModel>(model, myDictionaryValues);
 
                 using (var db = new ObradorDBContext())
-                {
-                    //db.Bdosps.Add(modelToInsert);
-
+                {            
                     db.Entry(modelToInsert).State = EntityState.Added;
 
                     db.SaveChanges();
