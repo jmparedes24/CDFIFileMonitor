@@ -12,3 +12,6 @@ C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileC
 C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\obj\Debug\FileCFDIMonitor.csprojResolveAssemblyReference.cache
 C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\obj\Debug\FileCFDIMonitor.exe
 C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\obj\Debug\FileCFDIMonitor.pdb
+C:\Users\ISC_JMWalls\Source\Repos\CDFIFileMonitor\FileCFDIMonitor\bin\Debug\FileCFDIMonitor.exe.config
+C:\Users\ISC_JMWalls\Source\Repos\CDFIFileMonitor\FileCFDIMonitor\obj\Debug\FileCFDIMonitor.exe
+C:\Users\ISC_JMWalls\Source\Repos\CDFIFileMonitor\FileCFDIMonitor\obj\Debug\FileCFDIMonitor.pdb
