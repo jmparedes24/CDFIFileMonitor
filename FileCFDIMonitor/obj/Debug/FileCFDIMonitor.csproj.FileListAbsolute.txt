@@ -1,0 +1,14 @@
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\bin\Debug\FileCFDIMonitor.exe.config
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\bin\Debug\FileCFDIMonitor.exe
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\bin\Debug\FileCFDIMonitor.pdb
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\bin\Debug\EntityFramework.dll
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\bin\Debug\FileMonitor.Common.dll
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\bin\Debug\log4net.dll
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\bin\Debug\FileMonitor.Common.pdb
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\bin\Debug\EntityFramework.xml
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\bin\Debug\log4net.xml
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\obj\Debug\FileCFDIMonitor.csprojResolveAssemblyReference.cache
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\obj\Debug\FileCFDIMonitor.exe
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileCFDIMonitor\obj\Debug\FileCFDIMonitor.pdb

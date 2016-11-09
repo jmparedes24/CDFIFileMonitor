@@ -1,0 +1,4 @@
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileMonitor.Common\bin\Debug\FileMonitor.Common.dll
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileMonitor.Common\bin\Debug\FileMonitor.Common.pdb
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileMonitor.Common\obj\Debug\FileMonitor.Common.dll
+C:\Users\ISC_JMWalls\Documents\Visual Studio 2015\Projects\FileCFDIMonitor\FileMonitor.Common\obj\Debug\FileMonitor.Common.pdb
