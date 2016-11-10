@@ -19,35 +19,28 @@ namespace FileCFDIMonitor
 
         public override IDictionary<string,string> GetInfoFile(string fileName)
         {
-            try
+               
+            XmlDocument docXml = new XmlDocument();
+            docXml.Load(fileName);
+            XmlElement root = docXml.DocumentElement;
+
+            IDictionary<string, string> iDictionaryValuesXml = new Dictionary<string, string>();
+
+            var attributes = _attributes.Split(',');
+
+            foreach(var attribute in attributes)
             {
-                
-                XmlDocument docXml = new XmlDocument();
-                docXml.Load(fileName);
-                XmlElement root = docXml.DocumentElement;
+                var attrName = attribute.Split('|');
 
-                IDictionary<string, string> iDictionaryValuesXml = new Dictionary<string, string>();
+                var attrValue = XmlHelper.GetAttributeNodeValue(attrName[1], root);
 
-                var attributes = _attributes.Split(',');
+                if (string.IsNullOrEmpty(attrValue))
+                    throw new Exception(FileMonitor.Common.Constants.errorMessageNotFoundAttribute);
 
-                foreach(var attribute in attributes)
-                {
-                    var attrName = attribute.Split('|');
-
-                    var attrValue = XmlHelper.GetAttributeNodeValue(attrName[1], root);
-
-                    if (string.IsNullOrEmpty(attrValue))
-                        throw new Exception(FileMonitor.Common.Constants.errorMessageNotFoundAttribute);
-
-                    iDictionaryValuesXml.Add(attrName[0], attrValue);                    
-                }
-                return iDictionaryValuesXml;
+                iDictionaryValuesXml.Add(attrName[0], attrValue);                    
             }
-            catch (System.Exception)
-            {
-
-                throw;
-            }
+            return iDictionaryValuesXml;
+                    
         }
     }
 }

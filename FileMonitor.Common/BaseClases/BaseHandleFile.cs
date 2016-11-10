@@ -16,7 +16,7 @@ namespace FileMonitor.Common.BaseClases
         {
             if (Directory.Exists(pathFiles))
             {
-                var fileEntries = Directory.GetFiles(@"c:\CFDI\", "*.*", SearchOption.AllDirectories).Where(e => typeFiles.Contains(Path.GetExtension(e))).ToArray();
+                var fileEntries = Directory.GetFiles(@"c:\CFDI\", "*.*", SearchOption.TopDirectoryOnly).Where(e => typeFiles.Contains(Path.GetExtension(e))).ToArray();
                 foreach(var fileName in fileEntries)
                 {
                     Console.WriteLine("Processed file '{0}'.", fileName);
@@ -39,8 +39,19 @@ namespace FileMonitor.Common.BaseClases
 
         public void MoveFile(string source, string destination)
         {
-            if (File.Exists(source))
-                File.Move(source, destination);
+
+            var fileNme = Path.GetFileName(source);
+
+            var pathDestinationFinal = string.Format("{0}/{1}", destination, fileNme);
+
+            
+            if (File.Exists(pathDestinationFinal))
+                File.Delete(pathDestinationFinal);
+
+            File.Move(source, pathDestinationFinal);
+
+            
+
         }
     }
 }
