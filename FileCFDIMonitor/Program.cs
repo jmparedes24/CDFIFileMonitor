@@ -60,8 +60,7 @@ namespace FileCFDIMonitor
                         }                           
                         else
                             throw ex;
-                        
-                        
+                                                
                     }
                 }
                 

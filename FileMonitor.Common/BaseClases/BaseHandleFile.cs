@@ -16,11 +16,7 @@ namespace FileMonitor.Common.BaseClases
         {
             if (Directory.Exists(pathFiles))
             {
-                var fileEntries = Directory.GetFiles(@"c:\CFDI\", "*.*", SearchOption.TopDirectoryOnly).Where(e => typeFiles.Contains(Path.GetExtension(e))).ToArray();
-                foreach(var fileName in fileEntries)
-                {
-                    Console.WriteLine("Processed file '{0}'.", fileName);
-                }
+                var fileEntries = Directory.GetFiles(@"c:\CFDI\", "*.*", SearchOption.TopDirectoryOnly).Where(e => typeFiles.Contains(Path.GetExtension(e))).ToArray();                
                 return fileEntries;
             }
 
